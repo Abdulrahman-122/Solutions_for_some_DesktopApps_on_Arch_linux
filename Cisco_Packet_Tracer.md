@@ -171,3 +171,8 @@ Firefox
     ▼
 Arch Linux Qt/system libraries
 ```
+
+- <img width="862" height="194" alt="image" src="https://github.com/user-attachments/assets/88b2e801-b2a7-44e2-90a3-4b48d9392a3e" />
+- <img width="1895" height="1034" alt="image" src="https://github.com/user-attachments/assets/c9596d3a-6e38-43b4-b3f6-c61b5770fba3" />
+
+
