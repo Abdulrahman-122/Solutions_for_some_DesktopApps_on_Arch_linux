@@ -1,13 +1,13 @@
 # solving the problem of login into arch linux
 
 # problem statement
-```
+```yml
 You use the maldives theme for the login screen (SDDM). After two months without updates, the full upgrade moved SDDM to a newer Qt version,
 and maldives is a third-party theme that doesn’t work with it. When the login screen tried to load it, it crashed after about 3 seconds,
 so you got a black screen with a dash. Your system, files, apps and desktop were never broken.
 ```
 # solution
-```
+```yml
 - grep -rn "Current" /etc/sddm.conf /etc/sddm.conf.d/ 2>/dev/null
 cat /etc/sddm.conf.d/kde_settings.conf
 #if it was like maldives -> so you need to set it to the defualt session(breeze) that is came with sddm(simple disktop display manager) when updating the entire system
@@ -20,7 +20,7 @@ sudo reboot  # then login with your stuff by breeze and you are now done
 
 ```
 # some commands to debug
-```
+```yml
 #in case you can't open the login session (kde-plasme) after startup
 ctrl+Alt+f3 #login to your system through the command lines (this is important)
 systemctl --failed       #check failure then disable it or try to see it's packages again and reinstall it again
